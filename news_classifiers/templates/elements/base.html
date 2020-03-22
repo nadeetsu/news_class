@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% if title %}
+    <title>
+      News Categorize - {{ title }}
+    </title>
+    {% else %}
+    <title> News Categorize</title>
+    {% endif %}
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+    <link rel="icon" href="{% static 'img\\antibacterial.svg' %}" sizes="32x32" />
+    <link rel="icon" href="{% static 'img\\antibacterial.svg' %}" sizes="192x192" />
+    <link rel="apple-touch-icon-precomposed" href="{% static 'img\\antibacterial.svg' %}" />
+    <link rel='dns-prefetch' href='//fonts.googleapis.com' />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/4nbk.css' %}" media="all"/>
+    <link rel='stylesheet' id='papr-fonts-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%7CRoboto%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900%26display%3Dswap&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/4jew.css' %}" media="all"/>
+    <script src="{% static 'js/4jex.js' %}" type="text/javascript"></script>
+    <script src="https://kit.fontawesome.com/234d855ba5.js" crossorigin="anonymous"></script>
+</head>
+<body class="home page-template page-template-elementor_header_footer page page-id-18 wp-embed-responsive theme-papr woocommerce-no-js no-sidebar full-width axil-sticky-menu menu-open-click elementor-default elementor-template-full-width elementor-page elementor-page-18">
+    <div class="wrp">
+      <main class="main-content">
+        <div id="page" class="papr-main-content">
+          <div class="side-nav">
+            <div class="side-nav-inner nicescroll-container">
+              <form id="off-canvas-search" class="side-nav-search-form" action="" method="GET">
+                  <div class="form-group search-field">
+                      <input type="text" name="s"
+                          placeholder="Search ..."
+                          value=""/>
+                      <button type="submit" class="side-nav-search-btn"><i class="fab fa-sistrix"></i></button>
+                  </div>
+              </form>
+              <div class="side-nav-content">
+                  <div class="row">
+                      <div class="col-lg-6">
+                          <nav class="menu-off-canvas-container">
+                              <ul id="menu-off-canvas" class="main-navigation side-navigation list-inline flex-column nicescroll-container">
+                                  <li id="menu-item-987" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-987"><a href="/content">Contents</a></li>
+                                  <li id="menu-item-989" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-989"><a href="/about">About</a></li>
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="close-sidenav-wrap">
+              <div class="close-sidenav" id="close-sidenav">
+                  <div></div>
+                  <div></div>
+              </div>
+            </div>
+          </div>
+          <header class="page-header">
+            <div class="navbar bg-white axil-header axil-header-one">
+              <div class="container">
+                <div class="navbar-inner">
+                    <div class="brand-logo-container">
+                        <a class="site-logo" href="/">
+                          {% load static %}
+                            <img class="brand-logo dark-logo lazyloaded" src="{% static 'img\\antibacterial.svg' %}" alt="Logo">
+                        </a>
+                    </div>
+                    <nav class="main-nav-wrapper ml-auto">
+                        <ul id="main-menu" class="main-navigation list-inline">
+                        <li id="menu-item-1096" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1096"><a href="/content">Contents</a></li>
+                        <li id="menu-item-616" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-616"><a href="/about">About</a></li>
+                        </ul>
+                    </nav>
+                    <div class="navbar-extra-features ml-auto">
+                        <a href="#" class="side-nav-toggler" id="side-nav-toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </a>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </header>
+          {% block page_content %}{% endblock %}
+          <footer class="page-footer bg-grey ">
+            <div class="container">
+                <div class="footer-mid">
+                    <div class="row align-items-center">
+                        <div class="col-md">
+                            <div class="footer-logo-container">
+                            <a class="footer-logo" href="http://axilthemes.com/themes/papr/">
+                              
+                              <img src="/static/img/antibacterial.svg" pxalt="Papr" width="60px">
+                            </a>
+                            </div>
+                        </div>
+                        <div class="col-md-auto">
+                            <div class="footer-social-share-wrapper">
+                            <div class="footer-bottom">
+                                <p class="axil-copyright-txt" style="font-size: 1.5rem; margin: 10px">Copyright © 2020 News Categorize | All right reserved</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </footer>
+        </div>
+      </main>
+    </div>
+    <a href="#" class="axil-top-scroll animated bounce faster"><i class="fas fa-angle-up"></i></a>
+    <script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script>
+    <script async data-noptimize="1" src='http://axilthemes.com/themes/papr/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=2.6.1'></script>
+    <script data-noptimize="1">function c_webp(A){var n=new Image;n.onload=function(){var e=0<n.width&&0<n.height;A(e)},n.onerror=function(){A(!1)},n.src='data:image/webp;base64,UklGRhoAAABXRUJQVlA4TA0AAAAvAAAAEAcQERGIiP4HAA=='}function s_webp(e){window.supportsWebP=e}c_webp(s_webp);document.addEventListener('lazybeforeunveil',function({target:c}){supportsWebP&&['data-src','data-srcset'].forEach(function(a){attr=c.getAttribute(a),null!==attr&&c.setAttribute(a,attr.replace(/\/client\//,'/client/to_webp,'))})});</script>
+
+    <script type='text/javascript'>
+    jQuery( 'body' ).bind( 'wc_fragments_refreshed', function() {
+    jQuery( 'body' ).trigger( 'jetpack-lazy-images-load' );
+    } );
+    </script>
+
+    <script type='text/javascript'>
+    /* <![CDATA[ */
+    var mc4wp_forms_config = [];
+    /* ]]> */
+    </script>
+    <script type='text/javascript'>
+    var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false},"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"version":"2.8.5","urls":{"assets":"http:\/\/axilthemes.com\/themes\/papr\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"page":[],"general":{"elementor_global_image_lightbox":"yes"},"editorPreferences":[]},};
+    </script>
+    <script defer src="http://axilthemes.com/themes/papr/wp-content/cache/autoptimize/js/autoptimize_9659d08d8ff4f7d49c5a7a1723283075.js"></script>
+    <script type='text/javascript'>
+    
+        var AxilObj = {"rtl":"no","ajaxurl":"http:\/\/axilthemes.com\/themes\/papr\/wp-admin\/admin-ajax.php"};
+    </script>
+</body>
+</html>
