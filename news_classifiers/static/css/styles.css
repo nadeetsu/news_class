@@ -13000,7 +13000,7 @@ body.elementor-page .elementor-widget-menu-anchor {
 	font-weight: 300;
 	src: url('fonts/font-awesome/fa-light-300.eot');
 	src: url('fonts/font-awesome/fa-light-300.eot?#iefix') format("embedded-opentype");
-	url('fonts/font-awesome/fa-light-300.woff2') format("woff2")
+	url('fonts/font-awesome/fa-light-300.woff2') format("woff2"),
 	url('fonts/font-awesome/fa-light-300.woff') format("woff"),
 	url('fonts/font-awesome/fa-light-300.ttf') format("truetype"), 
 	url('fonts/font-awesome/fa-light-300.svg#fontawesome') format("svg"),
