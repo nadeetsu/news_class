@@ -20,7 +20,13 @@
     <link rel='stylesheet' id='papr-fonts-css'  href='https://fonts.googleapis.com/css?family=Poppins%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C600%2C600i%2C700%2C700i%2C800%2C800i%2C900%7CRoboto%3A300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900%26display%3Dswap&#038;subset=latin%2Clatin-ext&#038;ver=5.3.2' type='text/css' media='all' />
     <link rel="stylesheet" type="text/css" href="{% static 'css/4jew.css' %}" media="all"/>
     <script src="{% static 'js/4jex.js' %}" type="text/javascript"></script>
+    <script src="{% static 'js/jquery.js' %}" type="text/javascript"></script>
     <script src="https://kit.fontawesome.com/234d855ba5.js" crossorigin="anonymous"></script>
+    
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 </head>
 <body class="home page-template page-template-elementor_header_footer page page-id-18 wp-embed-responsive theme-papr woocommerce-no-js no-sidebar full-width axil-sticky-menu menu-open-click elementor-default elementor-template-full-width elementor-page elementor-page-18">
     <div class="wrp">
@@ -134,5 +140,15 @@
     
         var AxilObj = {"rtl":"no","ajaxurl":"http:\/\/axilthemes.com\/themes\/papr\/wp-admin\/admin-ajax.php"};
     </script>
+    <script  type='text/javascript'>
+      $('input[name="dates"]').daterangepicker();
+      $(function() {
+        $('input[name="daterange"]').daterangepicker({
+          opens: 'left'
+        }, function(start, end, label) {
+          console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+        });
+      });
+      </script>
 </body>
 </html>
