@@ -35995,7 +35995,8 @@ span.wpcf7-list-item {
 }
 
 .banner-home__with-post .banner-left-content {
-	position: relative;
+    position: relative;
+    background-image: url(../img/baground.png);
 	padding: 24rem 8rem 24rem;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -44164,4 +44165,105 @@ ul,ol{
 }
 article .wp-block-columns,article .wp-block-column{
     margin-bottom:0
+}
+
+.features {
+    padding-bottom: 70px;
+}
+
+.section-heading {
+    padding-bottom: 40px;
+}
+
+.section-heading p {
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.box-content-wrapper {
+    padding-top: 20px;
+}
+
+.box-content-wrapper [class^="col-"] .content {
+    height: 100%;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    padding: 30px 30px 26px;
+    background: #f9f9f9;
+}
+
+.box-content-wrapper .content.content-with-grad .inner-content h3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.box-content-wrapper .content.content-with-grad .inner-content p {
+    color: #ffffff;
+}
+
+.grid .grid-item .content {
+    background: #fff;
+}
+
+.resources .overlay .resources-content .content {
+    background: #ffffff;
+}
+
+.templates .grid .grid-item .content {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    border-radius: 0;
+    margin-bottom: 60px;
+    position: relative;
+    z-index: 1;
+}
+
+.resources .overlay .resources-content .content {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 0;
+    overflow: hidden;
+    transition: all .5s;
+}
+
+.box-content-wrapper .box-2x .content {
+    position: relative;
+    padding: 0;
+}
+
+.templates .grid .grid-item .content.new::after {
+    content: "NEW";
+    position: absolute;
+    top: -35px;
+    right: 20px;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    text-align: center;
+    line-height: 70px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.text-left {
+    text-align: left!important;
+}
+
+.box-content-wrapper [class^="col-"] .content i {
+    font-size: 40px;
+    margin-bottom: 25px;
+    color: #ff2c54;
+    font-weight: 600;
 }
